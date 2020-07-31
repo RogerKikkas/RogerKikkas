@@ -1,0 +1,27 @@
+.img-portfolio {
+    height: 200px;
+    margin: auto;
+}
+.portfolio-modal {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.modal-content .container {
+    max-width: 90%;
+}
+/* Hides modal scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .modal-body h3, .modal-body h5 {
+        font-size: 3vw;
+    }
+    .close-modal {
+        height: 2%;
+    }
+}
